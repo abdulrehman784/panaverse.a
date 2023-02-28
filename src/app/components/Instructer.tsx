@@ -15,7 +15,7 @@ export default function Instructer() {
                     {data.map((ins)=>(
                         <Box key={ins.id}>
                            <center>
-                             <Image borderRadius='full' width={90} height={90} src={ins.src}/>
+                             <Image borderRadius='full' width={90} height={90} src={ins.src} alt='Profile picture of instructor'/>
                            </center>
                            <Heading textAlign='center' size='md'>{ins.heading}</Heading>
                             <Text px='30px' fontSize='sm' textAlign='center'>{ins.text}</Text>
