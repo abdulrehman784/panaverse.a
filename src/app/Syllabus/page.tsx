@@ -23,8 +23,8 @@ export default function page() {
           <Center>
             <Flex mt='30px' gap='20px'>
               {core.map((elem) => ( 
-              <RevealWrapper origin='top' delay={200} duration={2500} distance='200px' reset={true}>
-              <Box textAlign='center' p='30px' boxShadow='dark-lg' borderRadius='20px' width='290px' key={elem.id}>
+              <RevealWrapper origin='top' delay={200} duration={2500} distance='200px' reset={true} key={elem.id}>
+              <Box textAlign='center' p='30px' boxShadow='dark-lg' borderRadius='20px' width='290px' >
                 <Heading>{elem.heading}</Heading>
                 <Text color='white' pt='5px'>{elem.text}</Text>
               </Box>
